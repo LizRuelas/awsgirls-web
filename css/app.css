@@ -166,7 +166,7 @@ h6 {
   margin: 34px auto;
   text-align: center;
   background-color: rgba(177, 107, 255, 0.05);
-  padding: 23px 153px;
+  padding: 23px;
   font-size: 18px;
   color: #232f3f;
   line-height: 30px;
@@ -176,4 +176,61 @@ h6 {
 .div-twitch span {
   color: #b16bff;
   font-weight: 600;
+}
+
+
+
+
+/* .section-volunteers {
+  background-image: url(background-stars.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+ 
+} */
+
+.card-volunteers {
+  width: 302px;
+  height: 73px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px -9px rgba(108, 108, 108, 0.5);
+  border: solid 1px #d7d7d7;
+  background-color: #ffffff;
+  padding: 16px;
+  display: flex; 
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card-volunteers p {
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #232f3f;
+  font-weight: 600;
+}
+
+.card-volunteers .img-photo {
+  width: 40px;
+  border-radius: 50%;
+}
+.card-volunteers .img-linkedin {
+  float: left;
+  width: 15px;
+}
+
+.card-sponsors {
+  margin: auto;
+
+  display: table;
+  height:100px;
+}
+
+.card-sponsors div {
+  display: table-cell;
+   vertical-align: middle;
+}
+
+.section-contact {
+  background-color: #f6f6f6
+
+  ;
 }
